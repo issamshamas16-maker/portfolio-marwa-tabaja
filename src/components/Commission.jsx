@@ -1,12 +1,12 @@
 import { useState, useRef } from "react";
 // data
-import { commissionState } from "../data";
+// import { commissionState } from "../data";
 // animations
 import { motion, useInView } from "framer-motion";
 import { headAnim } from "../animations";
 
 const Commission = () => {
-  const [commissionData] = useState(commissionState);
+  // const [commissionData] = useState(commissionState);
 
   // scroll animations
   const ref = useRef(null);
